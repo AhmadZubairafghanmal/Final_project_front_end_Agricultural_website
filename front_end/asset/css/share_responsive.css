@@ -1,0 +1,112 @@
+/* section details reponsive */
+@media (max-width: 768px) {
+  .details {
+    padding: 2rem 3rem 0;
+  }
+}
+
+/* navbar resposiveness for device which width is: 768*/
+@media (max-width: 768px) {
+  /* font smalling */
+  * {
+    font-size: 0.8rem;
+  }
+}
+
+/* with 600px */
+@media (max-width: 600px) {
+  #header_wrapper #btn_wrapper_1,
+  #header_wrapper #btn_wrapper_2 {
+    display: var(--become-flex);
+  }
+
+  .mode_icon {
+    padding: 0;
+  }
+
+  #nav_wrapper ul {
+    display: var(--display-none);
+  }
+
+  #nav_wrapper #menu {
+    display: var(--block-level);
+  }
+
+  #nav_wrapper #root_list {
+    position: var(--become-absolute);
+    width: 100%;
+    height: 80vh;
+    background-color: var(--white-color);
+    top: 21vh;
+    left: -100%;
+    transition: all 0.7s;
+    display: var(--become-flex);
+    flex-direction: var(--column-direction);
+  }
+
+  #nav_wrapper #root_list li {
+    margin: 1.2rem 0;
+    padding-left: 8rem;
+    text-align: center;
+  }
+
+  #nav_wrapper #root_list li a {
+    background-color: var(--remove-background);
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+  }
+
+  #nav_wrapper #root_list.show {
+    left: 0;
+  }
+
+  #nav_wrapper ul li a span {
+    display: var(--display-none);
+  }
+}
+
+/*search icone resposiveness  */
+@media (max-width: 768px) {
+  .search_icon {
+    padding: 0.38rem 1rem;
+  }
+}
+
+/* card_wrapper responsiveness */
+@media (max-width: 768px) {
+  .wrapper {
+    display: var(--become-flex);
+    flex-direction: var(--column-direction);
+    align-items: center;
+  }
+}
+
+/* card responsiveness */
+@media (max-width: 768px) {
+  .card {
+    min-width: 38%;
+    margin-bottom: 1.5rem;
+  }
+}
+
+/* Device - 600px */
+@media (max-width: 600px) {
+  .card {
+    min-width: 50%;
+  }
+}
+
+/* footer responsiveness */
+@media (max-width: 1024px) {
+  #footer_wrapper ul li a {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 768px) {
+  #footer_wrapper #links {
+    display: var(--become-flex);
+    flex-direction: var(--column-direction);
+    padding-left: 3rem;
+  }
+}

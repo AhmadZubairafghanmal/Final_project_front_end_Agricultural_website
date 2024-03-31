@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="asset/images/logo/website_icon.png" />
+    <link rel="stylesheet" href="asset/css/style.css" />
+    <link rel="stylesheet" href="asset/css/share_responsive.css" />
+    <link rel="stylesheet" href="asset/icon/css/ionicons.min.css" />
+    <script defer src="asset/script/script.js"></script>
+    <title>A.H.S - Machinery</title>
+
+    <style>
+      #contact_section {
+        width: var(--hundred-width);
+        display: var(--become-flex);
+        justify-content: var(--to-center);
+        margin-bottom: 2rem;
+      }
+
+      #contact_section h1 {
+        padding-bottom: 1rem;
+        text-align: var(--to-center);
+      }
+
+      #contact_section #contact_details,
+      #contact_section #contact_form {
+        width: 34%;
+        border: 0.1rem solid var(--secondary-color);
+        background-color: var(--white-color);
+      }
+
+      #contact_section #contact_details {
+        text-align: justify;
+        padding: 1.5rem 3rem 4rem 3rem;
+        border-top-left-radius: 0.5rem;
+        border-bottom-left-radius: 0.5rem;
+      }
+
+      #contact_section #contact_details .info {
+        padding-top: 2rem;
+        text-align: var(--to-center);
+      }
+
+      #contact_section #contact_details p {
+        padding-top: 1rem;
+      }
+
+      #contact_section #contact_details #icon {
+        font-size: 1.6rem;
+      }
+
+      #contact_section #contact_form {
+        padding: 2rem 5rem;
+        border-top-right-radius: 0.5rem;
+        border-bottom-right-radius: 0.5rem;
+      }
+
+      #contact_section #contact_form form {
+        display: var(--become-flex);
+        flex-direction: var(--column-direction);
+      }
+
+      #contact_section #contact_form form input[type="text"],
+      #contact_section #contact_form form input[type="email"],
+      #contact_section #contact_form form textarea {
+        margin-top: 1rem;
+      }
+
+      #contact_section #contact_form form .button_area {
+        display: var(--become-flex);
+        justify-content: var(--space-between);
+        margin-top: 1rem;
+      }
+
+      #contact_section #contact_form form .button_area button {
+        width: 45%;
+      }
+
+      /* device 768px responsivenss */
+      @media (max-width: 768px) {
+        #contact_section {
+          height: 65vh;
+        }
+
+        #contact_section #contact_details,
+        #contact_section #contact_form {
+          min-width: 40%;
+        }
+      }
+
+      /*device 600px responsiveness */
+      @media (max-width: 600px) {
+        #contact_section {
+          display: var(--become-flex);
+          flex-direction: var(--column-direction);
+          height: 100vh;
+          align-items: var(--to-center);
+        }
+
+        #contact_section #contact_details,
+        #contact_section #contact_form {
+          min-width: 80%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Here starts the header part of the website -->
+    <header id="header_wrapper">
+      <div id="btn_wrapper_1">
+        <select name="" id="" class="btn header_btn">
+          <option value="English">English</option>
+          <option value="Pashto">Pashto</option>
+          <option value="Dari">Dari</option>
+        </select>
+
+        <select name="" id="" class="btn header_btn">
+          <option value="Dark">Dark</option>
+          <option value="Light">Light</option>
+        </select>
+      </div>
+      <div id="btn_wrapper_2">
+        <a href="login.html" class="btn header_btn">Log In</a>
+        <a href="sign_up.html" class="btn header_btn">Sign Up</a>
+      </div>
+    </header>
+
+    <!-- Here starts the navbar of the website -->
+    <nav class="" id="nav_wrapper">
+      <img
+        src="asset/images/logo/logo.jpg"
+        alt="logo of the website"
+        class="logo"
+      />
+
+      <ul id="root_list">
+        <li><a href="home.html" class="nav_link link">Home</a></li>
+        <li>
+          <a href="#" class="nav_link link"
+            >Services <span><i class="ion-chevron-down"></i></span
+          ></a>
+          <ul class="dropdown_1">
+            <li><a href="training.html" class="nav_link link">Training</a></li>
+            <li>
+              <a
+                href="machinery_and_equipment.html"
+                class="nav_link link active"
+                >Machinery & Equipment</a
+              >
+            </li>
+            <li><a href="market.html" class="nav_link link">Market</a></li>
+            <li>
+              <a href="Water_management.html" class="nav_link link"
+                >Water management</a
+              >
+            </li>
+            <li>
+              <a href="government_regulation.html" class="nav_link link"
+                >Government regulation</a
+              >
+            </li>
+            <li>
+              <a href="share_problem.html" class="nav_link link"
+                >Share problem</a
+              >
+            </li>
+            <li>
+              <a href="problem_solution.html" class="nav_link link"
+                >Problem solution</a
+              >
+            </li>
+            <li>
+              <a href="crop_info.html" class="nav_link link"
+                >Crop details & Schedule</a
+              >
+            </li>
+            <li>
+              <a href="livestock_care.html" class="nav_link link"
+                >Livestocke care</a
+              >
+            </li>
+            <li><a href="disease.html" class="nav_link link">Disease</a></li>
+            <li><a href="medicine.html" class="nav_link link">Medicine</a></li>
+            <li><a href="weather.html" class="nav_link link">Weather</a></li>
+          </ul>
+        </li>
+
+        <li>
+          <a href="instructions.html" class="nav_link link">Instructions</a>
+        </li>
+        <li><a href="contact_us.html" class="nav_link link">Contact us</a></li>
+        <li><a href="about_us.html" class="nav_link link">About us</a></li>
+      </ul>
+      <div id="menu">
+        <i class="ion-android-menu" id="menu"></i>
+      </div>
+    </nav>
+
+    <!-- Here starts the contact section -->
+    <section id="contact_section" class="section_wrapper">
+      <div id="contact_details">
+        <h1>address & contact Info</h1>
+        <p class="para">
+          <i class="ion-android-call" id="icon"> </i> +93704707160, +93744580628
+        </p>
+        <p class="para">
+          <i class="ion-ios-email" id="icon"></i> ahs123@gmail.com
+        </p>
+        <p class="para">
+          <i class="ion-android-pin" id="icon"></i> 4th Apartment, 3rd block,
+          12th District, KDR
+        </p>
+        <p class="para info">
+          If you have question, just you want to contact with us or get in
+          touch, use the form below. We waith hearing from you.
+        </p>
+      </div>
+
+      <div id="contact_form">
+        <h1>Contact Us</h1>
+        <form action="" onreset=" return inputFieldreset()">
+          <input
+            type="text"
+            placeholder="Your Name"
+            class="input_field input"
+          />
+          <input
+            type="email"
+            placeholder="User Email"
+            class="input_field input"
+          />
+
+          <textarea
+            name=""
+            id=""
+            cols=""
+            rows="5"
+            class="input_field input"
+            placeholder="Type your idea here ..."
+          ></textarea>
+          <div class="button_area">
+            <button type="submit" class="send_button btn">Send</button>
+            <button type="reset" class="reset_button btn">Reset</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Here starts Footer -->
+    <footer id="footer_wrapper">
+      <div id="links">
+        <div class="footer_box">
+          <h4>Address</h4>
+          <h5>A.H.S community</h5>
+          <address>
+            4th Apartment, 3rd Block, <br />
+            12th District, KDR
+          </address>
+        </div>
+
+        <div class="footer_box">
+          <h4>Useful links</h4>
+          <ul>
+            <li><a href="">USDA</a></li>
+            <li><a href="">FAO</a></li>
+            <li><a href="">Farm Bureau</a></li>
+            <li><a href="">Extension.org</a></li>
+            <li><a href="">Agri life today</a></li>
+          </ul>
+        </div>
+
+        <div class="footer_box">
+          <h4>Contact Us</h4>
+          <ul>
+            <li>
+              <a href=""
+                ><i class="ion-android-call"></i>+0744580627 / +93704707160</a
+              >
+            </li>
+            <li>
+              <a href=""
+                ><i class="ion-social-buffer"></i>A.H.S +3458971-1280</a
+              >
+            </li>
+            <li>
+              <a href=""><i class="ion-android-mail"></i>ahs123@gmail.com</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer_box">
+          <h4>Access links</h4>
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="training.html">Training</a></li>
+            <li><a href="machinery.html">Machinery</a></li>
+            <li><a href="market.html">Market</a></li>
+            <li><a href="water_management.html">Water management</a></li>
+            <li>
+              <a href="government_regulation.html">Government regulation</a>
+            </li>
+            <li><a href="share_problem.html">Share problem</a></li>
+            <li><a href="problem_solution.html">Problem solution</a></li>
+          </ul>
+        </div>
+
+        <div class="footer_box">
+          <h4>Access links</h4>
+          <ul>
+            <li><a href="crop.html">Crop details & scheduling</a></li>
+            <li><a href="livestock_care.html">Livestock care</a></li>
+            <li><a href="disease.html">Disease</a></li>
+            <li><a href="medicine.html">Medicine</a></li>
+            <li><a href="weather.html">Weather</a></li>
+            <li><a href="instruction.html">Instructions</a></li>
+            <li><a href="contact_us.html">Contact us</a></li>
+            <li><a href="about_us">About us</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <hr />
+      <div id="copy_right_wrapper">
+        <img
+          src="asset/images/logo/logo.jpg"
+          alt="Error on loading image"
+          class="logo"
+        />
+
+        <ul>
+          <li>
+            <a href=""><i class="ion-social-whatsapp-outline"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="ion-social-youtube-outline"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="ion-social-twitter-outline"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="ion-social-instagram-outline"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="ion-social-facebook-outline"></i></a>
+          </li>
+        </ul>
+      </div>
+
+      <p>Copyrights &copy; are with A.H.S community - 2024</p>
+    </footer>
+  </body>
+</html>

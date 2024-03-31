@@ -1,0 +1,72 @@
+1- Apple:
+Apple Scab
+Fire Blight
+Cedar Apple Rust
+Powdery Mildew
+Apple Mosaic Virus
+Collar Rot
+Apple Maggot
+Apple Leaf Curling Midge
+Woolly Apple Aphid
+Apple Rust Mite
+
+2- Grapes
+Downy Mildew
+Powdery Mildew
+Botrytis Bunch Rot
+Black Rot
+Phomopsis Cane and Leaf Spot
+Pierce's Disease
+Grapevine Leafroll Disease
+Esca
+Leafhopper-Borne Diseases
+Crown Gall
+
+3- wheat
+Fusarium Head Blight (Fusarium graminearum)
+Stripe Rust (Puccinia striiformis)
+Leaf Rust (Puccinia triticina)
+Stem Rust (Puccinia graminis)
+Powdery Mildew (Blumeria graminis)
+Septoria Leaf Blotch (Septoria tritici)
+Tan Spot (Pyrenophora tritici-repentis)
+Barley Yellow Dwarf Virus (BYDV)
+Wheat Streak Mosaic Virus (WSMV)
+Loose Smut (Ustilago tritici)
+
+4- corn
+Gray Leaf Spot (Cercospora zeae-maydis)
+Northern Corn Leaf Blight (Exserohilum turcicum)
+Southern Corn Leaf Blight (Bipolaris maydis)
+Common Rust (Puccinia sorghi)
+Goss's Wilt (Clavibacter michiganensis subsp. nebraskensis)
+Diplodia Ear Rot (Diplodia maydis)
+Fusarium Ear Rot (Fusarium spp.)
+Stalk Rot (Various pathogens, including Fusarium spp. and Colletotrichum graminicola)
+Stewart's Wilt (Pantoea stewartii)
+Maize Dwarf Mosaic Virus (MDMV)
+
+
+5- lentile
+Ascochyta Blight (Ascochyta lentis)
+Anthracnose (Colletotrichum truncatum)
+Botrytis Gray Mold (Botrytis cinerea)
+Fusarium Wilt (Fusarium oxysporum)
+Pythium Root Rot (Pythium spp.)
+Sclerotinia Stem Rot (Sclerotinia sclerotiorum)
+Stemphylium Blight (Stemphylium botryosum)
+Rhizoctonia Root Rot (Rhizoctonia solani)
+Downy Mildew (Peronospora lentis)
+Bean Leaf Roll Virus (BLRV)
+
+6- pea
+Powdery Mildew (Erysiphe polygoni)
+Downy Mildew (Peronospora viciae)
+Fusarium Wilt (Fusarium oxysporum)
+Pythium Root Rot (Pythium spp.)
+Aphanomyces Root Rot (Aphanomyces euteiches)
+Botrytis Gray Mold (Botrytis cinerea)
+Ascochyta Blight (Ascochyta pisi)
+Pea Leaf Roll Virus (PLRV)
+Pea Enation Mosaic Virus (PEMV)
+Pea Seed-borne Mosaic Virus (PSbMV)

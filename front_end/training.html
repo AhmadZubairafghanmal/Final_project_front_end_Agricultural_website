@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="asset/images/logo/website_icon.png" />
+    <link rel="stylesheet" href="asset/css/style.css" />
+    <link rel="stylesheet" href="asset/css/share_responsive.css" />
+    <link rel="stylesheet" href="asset/icon/css/ionicons.min.css" />
+    <script defer src="asset/script/script.js"></script>
+    <title>A.H.S - Training</title>
+
+    <style>
+      #training_section {
+        width: var(--hundred-width);
+        padding-bottom: 1rem;
+      }
+
+      #training_section #training_wrapper {
+        display: var(--become-flex);
+        width: 70%;
+        background-color: var(--white-color);
+        margin: 1rem auto;
+        padding: 2rem 1.5rem;
+        align-items: var(--to-center);
+        justify-content: var(--space-evenly);
+        border-radius: 0.2rem;
+        box-shadow: 0 0 1em 0.1em var(--gray-color);
+      }
+
+      #training_wrapper #right_column {
+        width: 50%;
+      }
+
+      #training_wrapper #right_column .professional_container {
+        display: var(--become-flex);
+        align-items: var(--to-center);
+        justify-content: var(--space-evenly);
+        flex-direction: row-reverse;
+        width: 100%;
+        margin-bottom: 2rem;
+      }
+
+      #training_wrapper #right_column h3,
+      #training_wrapper #right_column h4 {
+        text-transform: var(--become-uppercase);
+        margin-bottom: 0.5rem;
+      }
+
+      #training_wrapper #right_column img {
+        width: 40%;
+      }
+
+      #training_wrapper #left_column img {
+        width: 100%;
+        border-radius: 0.2rem;
+      }
+
+      /* video section style */
+      #content_section {
+        padding-bottom: 1rem;
+      }
+
+      #content_section .content_wrapper {
+        width: 100%;
+        display: var(--become-flex);
+        justify-content: var(--space-evenly);
+        padding-top: 1rem;
+      }
+
+      #content_section .content_wrapper video {
+        width: 20%;
+        border-radius: 0.2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Here starts the header part of the website -->
+    <header id="header_wrapper">
+      <div id="btn_wrapper_1">
+        <select name="" id="" class="btn header_btn">
+          <option value="English">English</option>
+          <option value="Pashto">Pashto</option>
+          <option value="Dari">Dari</option>
+        </select>
+
+        <select name="" id="" class="btn header_btn">
+          <option value="Dark">Dark</option>
+          <option value="Light">Light</option>
+        </select>
+      </div>
+      <div id="btn_wrapper_2">
+        <a href="login.html" class="btn header_btn">Log In</a>
+        <a href="sign_up.html" class="btn header_btn">Sign Up</a>
+      </div>
+    </header>
+
+    <!-- Here starts the navbar of the website -->
+    <nav class="" id="nav_wrapper">
+      <img
+        src="asset/images/logo/logo.jpg"
+        alt="logo of the website"
+        class="logo"
+      />
+
+      <ul id="root_list">
+        <li><a href="home.html" class="nav_link link">Home</a></li>
+        <li>
+          <a href="#" class="nav_link link"
+            >Services <span><i class="ion-chevron-down"></i></span
+          ></a>
+          <ul class="dropdown_1">
+            <li><a href="training.html" class="nav_link link">Training</a></li>
+            <li>
+              <a
+                href="machinery_and_equipment.html"
+                class="nav_link link active"
+                >Machinery & Equipment</a
+              >
+            </li>
+            <li><a href="market.html" class="nav_link link">Market</a></li>
+            <li>
+              <a href="Water_management.html" class="nav_link link"
+                >Water management</a
+              >
+            </li>
+            <li>
+              <a href="government_regulation.html" class="nav_link link"
+                >Government regulation</a
+              >
+            </li>
+            <li>
+              <a href="share_problem.html" class="nav_link link"
+                >Share problem</a
+              >
+            </li>
+            <li>
+              <a href="problem_solution.html" class="nav_link link"
+                >Problem solution</a
+              >
+            </li>
+            <li>
+              <a href="crop_info.html" class="nav_link link"
+                >Crop details & Schedule</a
+              >
+            </li>
+            <li>
+              <a href="livestock_care.html" class="nav_link link"
+                >Livestocke care</a
+              >
+            </li>
+            <li><a href="disease.html" class="nav_link link">Disease</a></li>
+            <li><a href="medicine.html" class="nav_link link">Medicine</a></li>
+            <li><a href="weather.html" class="nav_link link">Weather</a></li>
+          </ul>
+        </li>
+
+        <li>
+          <a href="instructions.html" class="nav_link link">Instructions</a>
+        </li>
+        <li><a href="contact_us.html" class="nav_link link">Contact us</a></li>
+        <li><a href="about_us.html" class="nav_link link">About us</a></li>
+      </ul>
+      <div id="menu">
+        <i class="ion-android-menu" id="menu"></i>
+      </div>
+    </nav>
+
+    <!-- Here starts the introduction of the training programs -->
+    <section id="training_section">
+      <div id="training_wrapper">
+        <div id="left_column">
+          <img
+            src="asset/images/training/training2.jpg"
+            alt="Error on loading image"
+          />
+        </div>
+        <div id="right_column">
+          <div class="professional_container">
+            <img
+              src="asset/images/persons/professional5.jpg"
+              alt="Error in loading image"
+            />
+            <div class="professional_info">
+              <h6>Prof. Jan Kari</h6>
+              <h6>
+                Professional teacher of STUFORD <br />
+                Agricultural department
+              </h6>
+            </div>
+          </div>
+          <h4>Course information</h4>
+          <hr />
+          <p class="para">
+            In this tutorial we are presenting different forms trainging
+            programs for farmers who want to get and improve knowledge about
+            different aspects of agricutlure and livestock caring, we offer
+            different forms of courses such as: video courses, tutorial base
+            courses.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- training video section -->
+    <section id="content_section" class="section_wrapper">
+      <div class="details">
+        <h4>Video base training</h4>
+        <p class="para">
+          You can improve your knowledge using video base method
+        </p>
+      </div>
+      <div class="content_wrapper">
+        <video
+          src="asset/videos/2.mp4"
+          controls
+          poster="asset/images/backgound/vidoe_poster.jpg"
+        ></video>
+        <video
+          src="asset/videos/2.mp4"
+          controls
+          poster="asset/images/backgound/vidoe_poster.jpg"
+        ></video>
+        <video
+          src="asset/videos/3.mp4"
+          controls
+          poster="asset/images/backgound/vidoe_poster.jpg"
+        ></video>
+        <video
+          src="asset/videos/4.mp4"
+          controls
+          poster="asset/images/backgound/vidoe_poster.jpg"
+        ></video>
+      </div>
+      <!-- 
+      <div class="video_wrapper">
+        <video src="asset/videos/2.mp4" controls poster="asset/images/backgound/vidoe_poster.jpg"></video>
+        <video src="asset/videos/3.mp4" controls poster="asset/images/backgound/vidoe_poster.jpg"></video>
+        <video src="asset/videos/4.mp4" controls poster="asset/images/backgound/vidoe_poster.jpg"></video>
+      </div> -->
+    </section>
+
+    <!-- training document section -->
+    <section id="content_section" class="section_wrapper">
+      <div class="details">
+        <h4>Document base trainging</h4>
+        <p class="para">
+          You can improve your knowledge using document base method
+        </p>
+      </div>
+      <div class="content_wrapper"></div>
+    </section>
+
+    <!-- Here starts Footer -->
+    <footer id="footer_wrapper">
+      <div id="links">
+        <div class="footer_box">
+          <h4>Address</h4>
+          <h5>A.H.S community</h5>
+          <address>
+            4th Apartment, 3rd Block, <br />
+            12th District, KDR
+          </address>
+        </div>
+
+        <div class="footer_box">
+          <h4>Useful links</h4>
+          <ul>
+            <li><a href="">USDA</a></li>
+            <li><a href="">FAO</a></li>
+            <li><a href="">Farm Bureau</a></li>
+            <li><a href="">Extension.org</a></li>
+            <li><a href="">Agri life today</a></li>
+          </ul>
+        </div>
+
+        <div class="footer_box">
+          <h4>Contact Us</h4>
+          <ul>
+            <li>
+              <a href=""
+                ><i class="ion-android-call"></i>+0744580627 / +93704707160</a
+              >
+            </li>
+            <li>
+              <a href=""
+                ><i class="ion-social-buffer"></i>A.H.S +3458971-1280</a
+              >
+            </li>
+            <li>
+              <a href=""><i class="ion-android-mail"></i>ahs123@gmail.com</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer_box">
+          <h4>Access links</h4>
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="training.html">Training</a></li>
+            <li><a href="machinery.html">Machinery</a></li>
+            <li><a href="market.html">Market</a></li>
+            <li><a href="water_management.html">Water management</a></li>
+            <li>
+              <a href="government_regulation.html">Government regulation</a>
+            </li>
+            <li><a href="share_problem.html">Share problem</a></li>
+            <li><a href="problem_solution.html">Problem solution</a></li>
+          </ul>
+        </div>
+
+        <div class="footer_box">
+          <h4>Access links</h4>
+          <ul>
+            <li><a href="crop.html">Crop details & scheduling</a></li>
+            <li><a href="livestock_care.html">Livestock care</a></li>
+            <li><a href="disease.html">Disease</a></li>
+            <li><a href="medicine.html">Medicine</a></li>
+            <li><a href="weather.html">Weather</a></li>
+            <li><a href="instruction.html">Instructions</a></li>
+            <li><a href="contact_us.html">Contact us</a></li>
+            <li><a href="about_us">About us</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <hr />
+      <div id="copy_right_wrapper">
+        <img
+          src="asset/images/logo/logo.jpg"
+          alt="Error on loading image"
+          class="logo"
+        />
+
+        <ul>
+          <li>
+            <a href=""><i class="ion-social-whatsapp-outline"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="ion-social-youtube-outline"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="ion-social-twitter-outline"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="ion-social-instagram-outline"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="ion-social-facebook-outline"></i></a>
+          </li>
+        </ul>
+      </div>
+
+      <p>Copyrights &copy; are with A.H.S community - 2024</p>
+    </footer>
+  </body>
+</html>

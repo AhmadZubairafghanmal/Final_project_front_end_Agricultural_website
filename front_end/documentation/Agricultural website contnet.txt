@@ -1,0 +1,44 @@
+Slogan: "Nurturing Sustainable Agriculture for a Better Future. Welcome to our website, where we are dedicated to promoting sustainable farming practices. Join us as we cultivate a greener, healthier tomorrow through innovation and a deep commitment to the environment"
+
+Activity diagram
+
+1-features:
+1: get knowledge
+2: save money
+3: live appointmnet
+4: update materials
+5: disease identification
+6: best recommendations
+7: research cocnlusions
+8: save time
+
+2- Services
+D: plant disease: Plant and livestock disease identification involves recognizing and diagnosing diseases in agriculture by observing symptoms and using diagnostic techniques. It helps implement effective control measures to protect the health and productivity of crops and livestock.
+E: training: Agriculture training programs provide knowledge and skills in various aspects of farming, including crop cultivation, livestock management, and sustainable practices, contributing to improved productivity and sustainable agriculture.
+F: Equipment & Machinery: Agricultural equipment and machinery are vital tools used in farming to improve efficiency and productivity. They include tractors, combines, and seeders, among others, designed for specific tasks such as plowing, harvesting, and seeding.
+G: Irrigation guide: Irrigation techniques involve delivering water to crops to meet their moisture needs. Common methods include surface irrigation, sprinkler irrigation, and drip irrigation. These techniques help optimize water usage and promote healthy crop growth.
+H: Laboratory testing: Laboratory testing generates reliable data and conclusions about the quality, composition, and safety of tested samples. It plays a vital role in fields such as healthcare, environmental monitoring, and product development, ensuring informed decision-making and public health.
+I: Government regulaion: Government regulations in agriculture ensure safety, sustainability, and efficiency in agricultural practices, covering areas such as food safety, environmental protection, animal welfare, and pesticide management.
+J: Research conclusion: Agricultural research drives innovation and improvement in farming practices, leading to increased productivity, sustainable methods, and better outcomes for farmers and the agricultural sector as a whole. 
+
+3- Professional
+A: John Smith - Agronomist
+C: Michael Davis - Farm Manager
+D: Jennifer Martinez - Crop Consultant
+E: David Thompson - Livestock Nutritionist
+F: Emily Wilson - Agricultural Economist
+G: Robert Garcia - Soil Scientist
+
+
+
+4- Advertisiment
+5- Footer
+
+
+
+
+
+
+
+
+Crop scheduling: is there any api for crop scheduling with poe search

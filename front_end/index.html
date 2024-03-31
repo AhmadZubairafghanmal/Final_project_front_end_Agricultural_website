@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="asset/images/logo/website_icon.png" />
+    <link rel="stylesheet" href="asset/css/style.css" />
+    <link rel="stylesheet" href="asset/css/share_responsive.css" />
+    <link rel="stylesheet" href="asset/icon/css/ionicons.min.css" />
+    <script defer src="asset/script/script.js"></script>
+    <title>A.H.S</title>
+
+    <style>
+      .hero_heading:not(.white_style) {
+        text-align: var(--to-center);
+        padding: 1rem 0;
+        text-transform: var(--become-uppercase);
+        background-color: var(--white-color);
+      }
+
+      .white_style {
+        color: var(--black-color);
+        background-color: var(--white-color);
+        text-align: var(--to-center);
+        padding: 1rem 0;
+        text-transform: var(--become-uppercase);
+      }
+
+      #hero_section {
+        width: var(--hundred-width);
+      }
+
+      #hero_section #wrapper {
+        display: var(--become-flex);
+        justify-content: var(--space-evenly);
+        align-items: var(--to-center);
+        height: 67vh;
+        width: 100%;
+      }
+
+      #hero_section #wrapper #first_col,
+      #hero_section #wrapper #second_col {
+        width: 44%;
+      }
+
+      #hero_section #wrapper #first_col h2 {
+        padding-bottom: 0.9rem;
+      }
+
+      #hero_section #wrapper #first_col a {
+        display: inline-block;
+        margin-top: 1rem;
+      }
+
+      #hero_section #wrapper #second_col img {
+        border-top-left-radius: 2rem;
+        border-bottom-right-radius: 2rem;
+        width: 100%;
+        height: auto;
+      }
+
+      /* features section style here */
+      .features_wrapper {
+        margin-top: 1.5rem;
+        display: var(--become-flex);
+        text-align: var(--to-center);
+        justify-content: var(--space-evenly);
+        align-items: var(--to-center);
+      }
+
+      .features_wrapper .box {
+        display: block;
+        width: 12rem;
+        padding-bottom: 1rem;
+        border-radius: 0.2rem;
+      }
+
+      .features_wrapper .box img {
+        width: 12rem;
+        height: 9rem;
+      }
+
+      .features_wrapper .box a {
+        margin-top: 0.7rem;
+        display: inline-block;
+        width: 95%;
+      }
+
+      /* Services style here */
+
+      #services_section .services_wrapper .services_box h4 {
+        text-align: var(--to-center);
+      }
+
+      #services_section .services_wrapper .services_box p {
+        padding: 0 0.3rem;
+      }
+
+      #services_section .services_wrapper .services_box a {
+        display: var(--inline-block);
+        margin-top: 1rem;
+      }
+
+      /* Professional section style */
+      #professional_section .professional_wrapper {
+        display: var(--become-flex);
+        justify-content: var(--space-evenly);
+        align-items: var(--to-center);
+        padding-top: 2rem;
+      }
+
+      #professional_section .professional_wrapper .professional_box p {
+        text-align: var(--to-center);
+        line-height: 1.3rem;
+        font-weight: 500;
+        padding: 0.5rem 0;
+      }
+
+      /* Advertisment section style */
+      #advertisment_section {
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.3)
+          ),
+          url("asset/images/backgound/background2.jpg");
+        background-size: cover;
+        text-align: var(--to-center);
+        background-repeat: no-repeat;
+        padding: 3rem 0;
+        margin-top: 2rem;
+      }
+
+      #advertisment_section h1 {
+        color: var(--white-color);
+        padding: 0.5rem 0;
+      }
+
+      #advertisment_section a {
+        margin: 1rem 1rem 0 0;
+      }
+
+      /* testimonial style here */
+      .testimonial_wrapper:not(.testimonial_black_style) {
+        background-image: url("asset/images/backgound/testominal background.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 23rem;
+        margin: 6rem 7rem 2rem;
+        color: var(--white-color);
+      }
+
+      .testimonial_black_style {
+        background-image: url("asset/images/backgound/black_testiomonial.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 23rem;
+        margin: 6rem 7rem 2rem;
+        color: var(--white-color);
+      }
+
+      #testimonial_section .testimonial_wrapper img {
+        width: 8rem;
+        height: auto;
+        float: left;
+        border-radius: 50%;
+        margin-bottom: -1rem;
+        margin-left: 2rem;
+        margin-top: -3.5rem;
+        box-shadow: #ddd 0px 0px 10px 0px;
+      }
+
+      #testimonial_section .testimonial_wrapper h3 {
+        display: var(--inline-block);
+        text-transform: var(--become-uppercase);
+        margin-top: 2.5rem;
+        color: var(--white-color);
+      }
+
+      #testimonial_section .testimonial_wrapper i {
+        font-size: 3rem;
+        color: var(--white-color);
+        display: block;
+        padding: 0.5rem 0 0 8rem;
+      }
+
+      #testimonial_section .testimonial_wrapper p {
+        text-align: justify;
+        width: 90%;
+        padding: 1rem 0 0 11rem;
+      }
+
+      /* Appointment section style */
+      #appointment_section form #input_field_wrapper {
+        background-color: var(--white-color);
+        width: 40%;
+        display: var(--become-flex);
+        flex-direction: var(--column-direction);
+        justify-content: var(--space-evenly);
+        padding: 1rem;
+        margin: 0 auto;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+      }
+
+      #appointment_section form #input_field_wrapper input[type="submit"] {
+        width: 25%;
+        margin-top: 0.7rem;
+      }
+
+      #appointment_section form #input_field_wrapper input,
+      #appointment_section form #input_field_wrapper select {
+        width: 49.5%;
+        margin-bottom: 0.7rem;
+        padding: 0.5rem;
+      }
+
+      #appointment_section form #input_field_wrapper input[type="tel"] {
+        width: 99.9%;
+      }
+
+      /* Responsiveness of the home page */
+      /* hero section responsiveness */
+      @media (max-width: 600px) {
+        #hero_section #wrapper {
+          flex-direction: column-reverse;
+          margin-top: 4rem;
+        }
+
+        #hero_section #wrapper #first_col,
+        #hero_section #wrapper #second_col {
+          width: 80%;
+        }
+      }
+
+      /* feature section responsiveness */
+      @media (max-width: 660px) {
+        .features_wrapper {
+          flex-direction: var(--column-direction);
+        }
+
+        .features_wrapper .box {
+          margin-bottom: 1rem;
+        }
+      }
+
+      /* professioanl section responsiveness */
+      @media (max-width: 768px) {
+        #professional_section .professional_wrapper {
+          display: var(--become-flex);
+          flex-direction: var(--column-direction);
+        }
+        #professional_section .professional_wrapper .professional_box {
+          margin-bottom: 1rem;
+        }
+      }
+
+      /* testimonial section responsiveness */
+      @media (max-width: 1024px) {
+        #testimonial_section .testimonial_wrapper p {
+          padding-top: 0;
+          font-size: 0.9rem;
+        }
+      }
+
+      @media (max-width: 600px) {
+        #testimonial_section .testimonial_wrapper p {
+          width: var(--hundred-width);
+          padding-right: 4rem;
+        }
+
+        #testimonial_section .testimonial_wrapper i {
+          font-size: 1.5rem;
+        }
+
+        #testimonial_section .testimonial_wrapper {
+          height: 23rem;
+          margin: 6rem 0 2rem;
+        }
+      }
+
+      /* appointment section responsiveness */
+      @media (max-width: 768px) {
+        #appointment_section form #input_field_wrapper {
+          width: 70%;
+        }
+      }
+    </style>
+  </head>
+  <body onload="load()">
+    <!-- Here starts the header part of the website -->
+    <header id="header_wrapper">
+      <div id="btn_wrapper_1">
+        <select name="" id="" class="btn header_btn">
+          <option value="English">English</option>
+          <option value="Pashto">Pashto</option>
+          <option value="Dari">Dari</option>
+        </select>
+        <i
+          class="ion-ios-moon mode_icon dark_icon"
+          id=""
+          onclick="darkMode()"
+        ></i>
+        <!-- <i class="ion-ios-sunny mode_icon light_icon" id=""></i> -->
+      </div>
+      <div id="btn_wrapper_2">
+        <a href="login.html" class="btn header_btn">Log In</a>
+        <a href="sign_up.html" class="btn header_btn">Sign Up</a>
+      </div>
+    </header>
+
+    <!-- Here starts the navbar of the website -->
+    <nav class="" id="nav_wrapper">
+      <img
+        src="asset/images/logo/logo.jpg"
+        alt="logo of the website"
+        class="logo"
+      />
+
+      <ul id="root_list">
+        <li><a href="home.html" class="nav_link link active">Home</a></li>
+        <li>
+          <a href="#" class="nav_link link"
+            >Services <span><i class="ion-chevron-down"></i></span
+          ></a>
+          <ul class="dropdown_1">
+            <li><a href="training.html" class="nav_link link">Training</a></li>
+            <li>
+              <a href="machinery_and_equipment.html" class="nav_link link"
+                >Machinery & Equipment</a
+              >
+            </li>
+            <li><a href="market.html" class="nav_link link">Market</a></li>
+            <li>
+              <a href="Water_management.html" class="nav_link link"
+                >Water management</a
+              >
+            </li>
+            <li>
+              <a href="government_regulation.html" class="nav_link link"
+                >Government regulation</a
+              >
+            </li>
+            <li>
+              <a href="share_problem.html" class="nav_link link"
+                >Share problem</a
+              >
+            </li>
+            <li>
+              <a href="problem_solution.html" class="nav_link link"
+                >Problem solution</a
+              >
+            </li>
+            <li>
+              <a href="crop_info.html" class="nav_link link"
+                >Crop details & Schedule</a
+              >
+            </li>
+            <li>
+              <a href="livestock_care.html" class="nav_link link"
+                >Livestocke care</a
+              >
+            </li>
+            <li><a href="disease.html" class="nav_link link">Disease</a></li>
+            <li><a href="medicine.html" class="nav_link link">Medicine</a></li>
+            <li><a href="weather.html" class="nav_link link">Weather</a></li>
+          </ul>
+        </li>
+
+        <li>
+          <a href="instructions.html" class="nav_link link">Instructions</a>
+        </li>
+        <li><a href="contact_us.html" class="nav_link link">Contact us</a></li>
+        <li><a href="about_us.html" class="nav_link link">About us</a></li>
+      </ul>
+      <div id="menu">
+        <i class="ion-android-menu" id="menu"></i>
+      </div>
+    </nav>
+
+    <!-- Here starts hero section -->
+    <section id="hero_section">
+      <h1 class="hero_heading">A.H.S community</h1>
+
+      <div id="wrapper">
+        <div id="first_col">
+          <h2>Agriculture Helping Services</h2>
+          <p class="para dark_para">
+            You can get more details about your farm improvement methodologies,
+            get guides about caring livestock, meet with professionals about the
+            problems you have, know about weather forecast, shop agricultural
+            medicines, rent machinery and get good recommendations from
+            professionals.
+          </p>
+          <a href="#" class="btn">Get more details</a>
+        </div>
+
+        <div id="second_col">
+          <img
+            src="asset/images/backgound/background4.jpeg"
+            alt="Error on loading images"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Features section starts here -->
+    <section id="features_section" class="section_wrapper">
+      <div class="details">
+        <h3>Features</h3>
+        <p class="para dark_para">Here are features of our website we offer!</p>
+      </div>
+      <!-- <div class="icon"><</div> -->
+      <div class="features_wrapper">
+        <div class="box small_card">
+          <img
+            src="asset/images/features/improve knowledge.jpg"
+            alt="error on loading image"
+          />
+          <a href="training.html" class="btn">Improve knowledge</a>
+        </div>
+
+        <div class="box small_card">
+          <img
+            src="asset/images/features/save money.png"
+            alt="error on loading image"
+          />
+          <a href="market.html" class="btn">Save money</a>
+        </div>
+
+        <div class="box small_card">
+          <img
+            src="asset/images/features/live appointment.jpg"
+            alt="error on loading image"
+          />
+          <a href="appointment.html" class="btn">Live appointment</a>
+        </div>
+
+        <div class="box small_card">
+          <img
+            src="asset/images/features/update content.png"
+            alt="error on loading image"
+          />
+          <a href="crop_info.html" class="btn">Update materials</a>
+        </div>
+      </div>
+
+      <div class="features_wrapper">
+        <div class="box small_card">
+          <img
+            src="asset/images/features/disease diagnosis.jpg"
+            alt="error on loading image"
+          />
+          <a href="disease.html" class="btn">Disease diagnosing</a>
+        </div>
+
+        <div class="box small_card">
+          <img
+            src="asset/images/features/recommendation.jpg"
+            alt="error on loading image"
+          />
+          <a href="recommendation.html" class="btn">recommendation</a>
+        </div>
+
+        <div class="box small_card">
+          <img
+            src="asset/images/features/share conclusion.jpg"
+            alt="error on loading image"
+          />
+          <a href="article_conclusion.html" class="btn">Research conclusion</a>
+        </div>
+
+        <div class="box small_card">
+          <img
+            src="asset/images/features/save time.png"
+            alt="error on loading image"
+          />
+          <a href="schedule.html" class="btn">Save time</a>
+        </div>
+      </div>
+      <!-- <div class="icon">></div> -->
+    </section>
+
+    <!-- Services section starts here -->
+    <section id="services_section" class="section_wrapper">
+      <div class="details">
+        <h3>Services</h3>
+        <p class="para dark_para">
+          Our website is the best choice for promiting your agricultural and
+          livestocks with good inventry!
+        </p>
+      </div>
+
+      <div class="services_wrapper wrapper">
+        <div class="services_box card">
+          <img
+            src="asset/images/services/crop.jpg"
+            alt="Error on loading image"
+            class="card_image"
+          />
+          <h4 class="head">Crop management</h4>
+          <hr />
+          <div class="card_info card_details">
+            <p class="para">
+              Crop information is essential data about agricultural crops,
+              including cultivation practices, growing conditions, and yield
+              potential, aiding informed decision-making for enhanced
+              productivity and food security.
+            </p>
+            <a href="#" class="btn link">get more info</a>
+          </div>
+        </div>
+
+        <div class="services_box card">
+          <img
+            src="asset/images/services/livestock.jpg"
+            alt="Error on loading image"
+            class="card_image"
+          />
+          <h4 class="head">Livestock management</h4>
+          <hr />
+          <div class="card_info card_details">
+            <p class="para">
+              Livestock management involves the care, health, and well-being of
+              domesticated animals, including practices related to nutrition,
+              housing, breeding, and disease prevention, ensuring their product.
+            </p>
+            <a href="#" class="btn link">get more info</a>
+          </div>
+        </div>
+
+        <div class="services_box card">
+          <img
+            src="asset/images/services/weather.jpg"
+            alt="Error on loading image"
+            class="card_image"
+          />
+          <h4 class="head">Weather information</h4>
+          <hr />
+          <div class="card_info card_details">
+            <p class="para">
+              Weather information from an API provides essential data like
+              temperature, humidity, wind speed, precipitation, and atmospheric
+              pressure. It helps users plan activities, make informed decisions.
+            </p>
+            <a href="#" class="btn link">get more info</a>
+          </div>
+        </div>
+      </div>
+      <div class="icon_wrapper">
+        <span class="icon"><</span>
+        <span class="icon">></span>
+      </div>
+    </section>
+
+    <!-- Professional section starts here -->
+    <section id="professional_section" class="section_wrapper">
+      <div class="details">
+        <h3>Professional instructors</h3>
+        <p class="para dark_para">
+          Our community has experiment & professional instructors which help
+          farmers to improve their knowledge ans produce plenty products
+        </p>
+      </div>
+
+      <div class="professional_wrapper">
+        <div class="professional_box small_card">
+          <img
+            src="asset/images/persons/professional1.jpg"
+            alt="Error on loading image"
+          />
+          <p class="para">
+            John Smith <br />
+            Agronomist <br />
+            +93704707160
+          </p>
+        </div>
+
+        <div class="professional_box small_card">
+          <img
+            src="asset/images/persons/professional2.jpg"
+            alt="Error on loading image"
+          />
+          <p class="para">
+            Michael Davis <br />
+            Agricultural Engineer <br />
+            +93744580628
+          </p>
+        </div>
+
+        <div class="professional_box small_card">
+          <img
+            src="asset/images/persons/professional3.jpg"
+            alt="Error on loading image"
+          />
+          <p class="para">
+            Jennifer Martinez <br />
+            Crop Consultant <br />
+            +93700303099
+          </p>
+        </div>
+
+        <div class="professional_box small_card">
+          <img
+            src="asset/images/persons/professional4.jpg"
+            alt="Error on loading image"
+          />
+          <p class="para">
+            David Thompson <br />
+            Livestock Nutritionist <br />
+            +0708892145
+          </p>
+        </div>
+      </div>
+
+      <div class="icon_wrapper">
+        <span class="icon"><</span>
+        <span class="icon">></span>
+      </div>
+    </section>
+
+    <!-- Advertisment section starts here -->
+    <section id="advertisment_section" class="section_wrapper">
+      <h1>improve your knowledge here with professional doctors</h1>
+      <a href="training.html" class="btn">Continue training</a>
+      <a href="generate_idea.html" class="btn">Generate idea</a>
+    </section>
+
+    <!-- Testimonial section starts here -->
+    <section id="testimonial_section" class="section_wrapper">
+      <div class="details">
+        <h3>What our user's say?</h3>
+        <p class="para dark_para">
+          Here are main ideas from our dear users who get advantages from our
+          website with more faility
+        </p>
+      </div>
+
+      <div class="testimonial_wrapper">
+        <img src="asset/images/persons/farmer1.jpg" alt="" />
+        <h3>johne du</h3>
+        <i class="ion-quote"></i>
+        <p>
+          It is a long established fact that a reader will be distracted by the
+          readable content of a page when looking at its layout. The point of
+          using Lorem Ipsum is that it has a more-or-less normal distribution of
+          letters,It is a long established fact that a reader will be distracted
+          by the readable content of a page when looking at its layout. The
+          point of using Lorem Ipsum is that it has a more-or-less normal
+          distribution of letters,It is a long established fact that a reader
+          will be distracted by the readable content of a page when looking at
+          its layout. The point of using Lorem Ipsum is that it has a
+          more-or-less normal distribution of letters.
+        </p>
+      </div>
+    </section>
+
+    <!-- Appointment section starts -->
+    <section id="appointment_section" class="section_wrapper">
+      <div class="details">
+        <h3>Make an appointment</h3>
+        <p class="para dark_para">
+          You can choose appointment with professional doctors and engineers for
+          solving complex problems
+        </p>
+      </div>
+
+      <form action="">
+        <div id="input_field_wrapper">
+          <div class="appointment_row">
+            <input
+              type="text"
+              class="input_field"
+              placeholder="Full name"
+              required
+            />
+            <input
+              type="email"
+              class="input_field"
+              placeholder="Email address"
+              required
+            />
+          </div>
+
+          <div class="appointment_row">
+            <input type="date" placeholder="mm/dd/yyyy" class="input_field" />
+            <select name="" id="" class="input_field">
+              <option value="General problem">General problem</option>
+            </select>
+          </div>
+
+          <input type="tel" placeholder="Mobile number" class="input_field" />
+
+          <textarea name="" id="" cols="30" rows="10" class="input_field">
+Enter message...</textarea
+          >
+          <input type="submit" class="btn" value="Submit request" />
+        </div>
+      </form>
+    </section>
+
+    <!-- Here starts Footer -->
+    <footer id="footer_wrapper">
+      <div id="links">
+        <div class="footer_box">
+          <h4>Address</h4>
+          <h5>A.H.S community</h5>
+          <address>
+            4th Apartment, 3rd Block, <br />
+            12th District, KDR
+          </address>
+        </div>
+
+        <div class="footer_box">
+          <h4>Useful links</h4>
+          <ul>
+            <li><a href="">USDA</a></li>
+            <li><a href="">FAO</a></li>
+            <li><a href="">Farm Bureau</a></li>
+            <li><a href="">Extension.org</a></li>
+            <li><a href="">Agri life today</a></li>
+          </ul>
+        </div>
+
+        <div class="footer_box">
+          <h4>Contact Us</h4>
+          <ul>
+            <li>
+              <a href=""
+                ><i class="ion-android-call"></i>+0744580627 / +93704707160</a
+              >
+            </li>
+            <li>
+              <a href=""
+                ><i class="ion-social-buffer"></i>A.H.S +3458971-1280</a
+              >
+            </li>
+            <li>
+              <a href=""><i class="ion-android-mail"></i>ahs123@gmail.com</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer_box">
+          <h4>Access links</h4>
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="training.html">Training</a></li>
+            <li><a href="machinery.html">Machinery</a></li>
+            <li><a href="market.html">Market</a></li>
+            <li><a href="water_management.html">Water management</a></li>
+            <li>
+              <a href="government_regulation.html">Government regulation</a>
+            </li>
+            <li><a href="share_problem.html">Share problem</a></li>
+            <li><a href="problem_solution.html">Problem solution</a></li>
+          </ul>
+        </div>
+
+        <div class="footer_box">
+          <h4>Access links</h4>
+          <ul>
+            <li><a href="crop.html">Crop details & scheduling</a></li>
+            <li><a href="livestock_care.html">Livestock care</a></li>
+            <li><a href="disease.html">Disease</a></li>
+            <li><a href="medicine.html">Medicine</a></li>
+            <li><a href="weather.html">Weather</a></li>
+            <li><a href="instruction.html">Instructions</a></li>
+            <li><a href="contact_us.html">Contact us</a></li>
+            <li><a href="about_us">About us</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <hr />
+      <div id="copy_right_wrapper">
+        <img
+          src="asset/images/logo/logo.jpg"
+          alt="Error on loading image"
+          class="logo"
+        />
+
+        <ul>
+          <li>
+            <a href=""><i class="ion-social-whatsapp-outline"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="ion-social-youtube-outline"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="ion-social-twitter-outline"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="ion-social-instagram-outline"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="ion-social-facebook-outline"></i></a>
+          </li>
+        </ul>
+      </div>
+      <!-- <img src="asset/images/logo/logo.jpg" alt="Error on loading image"> -->
+
+      <p>Copyrights &copy; are with A.H.S community - 2024</p>
+    </footer>
+
+    <script>
+    /*  const element = document.body;
+      if (element.style.backgroundColor == "#000000") {
+        const paragraph = document.querySelectorAll(".dark_para");
+        const heroHeading = document.querySelector(".hero_heading");
+        heroHeading.classList.toggle("white_style");
+
+        const tesimonialWrapper = document.querySelector(
+          ".testimonial_wrapper"
+        );
+        tesimonialWrapper.classList.toggle("testimonial_black_style");
+
+        paragraph.forEach((para) => {
+          para.classList.toggle("white-color");
+          para.classList.toggle("para");
+        });
+      } else {
+        return false;
+      }
+
+      */
+    </script>
+  </body>
+</html>
